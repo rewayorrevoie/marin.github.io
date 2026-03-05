@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>M A R I N — Kitagawa</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,600;1,9..40,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="cursor" id="cursor">
+  <div class="cursor__ring"></div>
+  <div class="cursor__dot"></div>
+</div>
+
+<div class="ambient" aria-hidden="true">
+  <div class="ambient__blob"></div>
+  <div class="ambient__blob"></div>
+  <div class="ambient__blob"></div>
+</div>
+
+<header class="topbar">
+  <div class="wrap topbar__inner">
+    <a class="brand" href="#home">
+      <div class="brand__mark"></div>
+      <div>
+        <span class="brand__text">M A R I N</span>
+        <span class="brand__sub">Kitagawa Fan Site</span>
+      </div>
+    </a>
+    <nav class="nav">
+      <a class="nav__link" href="#about">О ней</a>
+      <a class="nav__link" href="#gallery">Галерея</a>
+      <a class="nav__link" href="#facts">Факты</a>
+      <a class="nav__link" href="#contact">Контакты</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap" id="home">
+
+  <section class="card hero reveal">
+    <div class="hero__left">
+      <span class="badge">Cosplay • Anime • Cute Vibes</span>
+      <h1 class="hero__title">
+        <span class="thin">M A R I N</span>
+        <em>Kitagawa</em>
+      </h1>
+      <div class="hero__line"></div>
+      <p class="hero__sub">
+        Фан сайт посвященный Марин Китагаве
+      </p>
+      <div class="hero__actions">
+        <a class="btn btn--primary" href="#gallery">Открыть галерею</a>
+        <a class="btn btn--ghost" href="#about">Читать описание</a>
+      </div>
+      <div class="hero__chips">
+        <span class="chip">✦ Cosplay</span>
+        <span class="chip">♡ Anime</span>
+        <span class="chip">✿ Cute vibes</span>
+        <span class="chip">★ My Dress-Up Darling</span>
+      </div>
+    </div>
+    <div class="hero__right">
+      <div class="img-slot">
+        <img src="https://i.pinimg.com/736x/20/a4/d8/20a4d81a798bc7410f1f6e7e3823892d.jpg" alt="Marin Kitagawa">
+        <div class="img-slot__placeholder">
+          <strong>Марин Китагава</strong>
+          <span></span>
+        </div>
+      </div>
+      <div class="hero__deco hero__deco--tl"></div>
+      <div class="hero__deco hero__deco--br"></div>
+    </div>
+  </section>
+
+  <div class="card stats reveal reveal--delay-1">
+    <div class="stat">
+      <div class="stat__num">16</div>
+      <div class="stat__label">Лет Марин</div>
+    </div>
+    <div class="stat">
+      <div class="stat__num">12</div>
+      <div class="stat__label">Томов манги</div>
+    </div>
+    <div class="stat">
+      <div class="stat__num">∞</div>
+      <div class="stat__label">Любимых образов</div>
+    </div>
+  </div>
+
+  <div class="cols" id="about">
+    <article class="card about-card reveal reveal--delay-2">
+      <p class="sec-label">О персонаже</p>
+      <h2 class="sec-title">О <em>Марин</em></h2>
+      <p class="sec-text">M y l o v e</p>
+      <div class="divider"></div>
+      <ul class="dot-list">
+        <li><span class="dot-list__icon"></span>sexy</li>
+        <li><span class="dot-list__icon"></span>sexy</li>
+        <li><span class="dot-list__icon"></span>sexy</li>
+        <li><span class="dot-list__icon"></span>sexy</li>
+      </ul>
+      <div class="divider"></div>
+      <a class="btn btn--ghost" href="#facts">Перейти к фактам →</a>
+    </article>
+
+    <aside class="card mini-card reveal reveal--delay-3">
+      <p class="sec-label">Цитата</p>
+      <h2 class="sec-title">Мини-<em>карточка</em></h2>
+      <blockquote class="quote-block">
+        «Разве важно мальчик ты или девочка, если тебе что-то нравится?»
+        <cite>— Марин Китагава</cite>
+      </blockquote>
+      <div class="divider"></div>
+      <div class="about-avatar">
+        <img src="https://i.pinimg.com/736x/91/07/56/9107563a56db1325a76a7e8387214472.jpg" alt="Marin">
+        <div class="img-slot__placeholder">
+          <strong>Аватар / иконка</strong>
+          <span>300 × 400</span>
+        </div>
+      </div>
+      <a class="btn btn--primary btn--full" href="#gallery">Смотреть галерею</a>
+    </aside>
+  </div>
+
+  <section class="card gallery-card reveal" id="gallery">
+    <div class="gallery-header">
+      <div>
+        <p class="sec-label">Изображения</p>
+        <h2 class="sec-title"><em>Галерея</em></h2>
+      </div>
+      <p class="sec-text" style="max-width:30ch;text-align:right;"></p>
+    </div>
+    <div class="gallery-grid">
+      <figure class="gal-item reveal reveal--delay-1">
+        <div class="gal-thumb">
+          <img src="https://i.pinimg.com/736x/6f/d7/45/6fd745090827ceff907a2dfa50c270f5.jpg" alt="Marin photo 1"> 
+          <div class="gal-thumb__placeholder"><strong>#1</strong>Вставь &lt;img&gt;</div>
+          <div class="gal-overlay"><span class="gal-overlay__text">Посмотреть →</span></div>
+        </div>
+        <figcaption class="gal-caption">Красива</figcaption>
+      </figure>
+      <figure class="gal-item reveal reveal--delay-2">
+        <div class="gal-thumb">
+          <img src="https://i.pinimg.com/originals/20/89/95/2089953413824dc41f6c3b48f77bcb81.jpg?nii=t" alt="photo2">
+          <div class="gal-thumb__placeholder"><strong>#2</strong>Вставь &lt;img&gt;</div>
+          <div class="gal-overlay"><span class="gal-overlay__text">Посмотреть →</span></div>
+        </div>
+        <figcaption class="gal-caption">Прекрасна</figcaption>
+      </figure>
+      <figure class="gal-item reveal reveal--delay-3">
+        <div class="gal-thumb">
+          <img src="https://i.pinimg.com/736x/03/42/27/0342278cb11b7f22b04c4f2ab7116ea2.jpg" alt="photo3">
+          <div class="gal-thumb__placeholder"><strong>#3</strong>Вставь &lt;img&gt;</div>
+          <div class="gal-overlay"><span class="gal-overlay__text">Посмотреть →</span></div>
+        </div>
+        <figcaption class="gal-caption">Великолепна</figcaption>
+      </figure>
+      <figure class="gal-item reveal reveal--delay-4">
+        <div class="gal-thumb">
+          <img src="https://i.pinimg.com/736x/8d/00/59/8d00598d09e3945ba0bcc8942c9aeba8.jpg" alt="photo4">
+          <div class="gal-thumb__placeholder"><strong>#4</strong>Вставь &lt;img&gt;</div>
+          <div class="gal-overlay"><span class="gal-overlay__text">Посмотреть →</span></div>
+        </div>
+        <figcaption class="gal-caption">Сексуальна</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="band reveal">
+    <p class="band__label">My Dress-Up Darling</p>
+    <h2 class="band__title">«Sono Bisque Doll wa<br><em>Koi wo Suru»</em></h2>
+    <p class="band__sub"> Необходимо заявлять о своих чувствах, ради своего же блага</p>
+    <div class="band__actions">
+      <a class="btn btn--primary" href="#gallery">Галерея</a>
+      <a class="btn btn--light" href="#facts">Факты</a>
+    </div>
+  </section>
+
+  <div class="cols" id="facts">
+    <article class="card facts-main reveal">
+      <p class="sec-label">Детали</p>
+      <h2 class="sec-title"><em>Факты</em> / заметки</h2>
+      <div class="fact">
+        <div class="fact__icon">★</div>
+        <div><p class="fact__title">Факт 1</p><p class="fact__text">Личность и внешность: Является классической представительницей культуры гяру — яркая, общительная, любит макияж и модную одежду. Несмотря на вызывающую внешность, она дружелюбна и уважает интересы других людей.</p></div>
+      </div>
+      <div class="fact">
+        <div class="fact__icon">♡</div>
+        <div><p class="fact__title">Факт 2</p><p class="fact__text">Увлечения: Является преданной фанаткой аниме, манги и видеоигр (особенно эроге-игр), открыто заявляет о своей любви к культуре отаку</p></div>
+      </div>
+      <div class="fact">
+        <div class="fact__icon">✿</div>
+        <div><p class="fact__title">Факт 3</p><p class="fact__text">Косплей: Мечтает косплеить своих любимых персонажей, но не умеет шить костюмы, из-за чего обращается за помощью к Вакане Годзё.</p></div>
+      </div>
+      <div class="fact">
+        <div class="fact__icon">✦</div>
+        <div><p class="fact__title">Факт 4</p><p class="fact__text">Бытовые навыки: Не умеет готовить, живёт одна с начала старшей школы.</p></div>
+      </div>
+    </article>
+
+    <aside class="card facts-aside reveal reveal--delay-2">
+      <p class="sec-label">Баннер / новости</p>
+      <h2 class="sec-title">Блок под <em>баннер</em></h2>
+      <p class="sec-text">Лучшая вайфу ever</p>
+      <div class="banner-slot">
+         <img src="https://i.ytimg.com/vi/tziu-7VdZ3I/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgTyhCMA8=&rs=AOn4CLBxpSkhWz1K7qijA2tktnhyB2mrdA" alt="Banner">
+        <div class="banner-slot__placeholder">
+          <strong>Марин</strong>
+          <span></span>
+        </div>
+      </div>
+    </aside>
+  </div>
+
+  <section class="card contact-card reveal" id="contact">
+    <div>
+      <p class="sec-label">Связь</p>
+      <h2 class="sec-title">Контакты / <em>ссылки</em></h2>
+      <p class="sec-text"></p>
+    </div>
+    <div class="links">
+      <a class="link-pill" href="#">Twitter / X</a>
+      <a class="link-pill" href="#">Discord</a>
+      <a class="link-pill" href="#">YouTube</a>
+      <a class="link-pill" href="#">Telegram</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> M A R I N — pastel fan site template &nbsp;·&nbsp; Сделано с ♡</p>
+  </footer>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
